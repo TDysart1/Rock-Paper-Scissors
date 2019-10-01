@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rock Paper Scissors</title>
-    <link type="relsheet" href="css.css">
+    <link rel="stylesheet" href="css.css">
 </head>
 
 <body>
@@ -17,21 +17,24 @@
         <div id="you" class="badge">You</div>
         <div id="opp" class="badge">Opponent</div>
         <span id='your-score'>0</span>:<span id='opp-score'>0</span>
-        <div class="results">
-            <p class="resultsP">Rock beats Scissors! You win!
-            </p>
-        </div>
-        <div class="rock" id="r">
+    </section>
+    <div class="results">
+        <p class="resultsP">Rock beats Scissors! You win!
+        </p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
             <img src="images/rock.png" alt="rock">
         </div>
-        <div class="paper" id="p">
+        <div class="choice" id="p">
             <img src="images/paper.png" alt="paper">
         </div>
-        <div class="scissors" id="s">
+        <div class="choice" id="s">
             <img src="images/scissors.png" alt="scissors">
         </div>
+    </div>
 
-    </section>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js.js"></script>

@@ -1,1 +1,0 @@
-This is a basic Rock,Paper,Scissors game (RPS).
